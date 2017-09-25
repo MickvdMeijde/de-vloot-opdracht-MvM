@@ -1,0 +1,110 @@
+/* CSS Start */
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+/*header*/
+header{
+	width:800px;
+	height:268px;
+	margin: 0 auto;
+	display: block;
+	background:url(grfx/header.jpg)
+}
+
+header h1{
+	padding:0px 40px 0 0; 
+	text-align:left;
+	color:#000000;
+}
+
+/*body*/
+body{
+	background:url(grfx/bg.png);
+	background-repeat:repeat-x;
+	font-family:Arial, Helvetica, Sans-Serif;
+	font-size:18px;
+	color:#000;
+}
+
+body h2{
+	text-align: left;
+	color:#000000;
+}
+
+/* Menu */
+#top-menu{
+	padding: 180px 0px 0;
+	width:900px;
+	list-style:none;
+	float:left;
+}
+
+#top-menu li{
+	display:inline;
+	float:left;
+}
+#top-menu li a{
+	text-decoration:none;
+	color:#F3FFFF;
+	font-size:10px;
+	padding:10px 30px;
+	float:left;
+}
+
+/* Content */
+main h1{
+	font-family: sans-serif;
+	color:#000;
+}
+
+main a{
+	color:#000;
+}
+
+main{
+    padding:20px;
+	margin: auto;
+    width:760px;
+    position:relative;
+    background: rgb(255,255,255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255,255,255, 1);
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+	margin: 21px;
+}
+
+main p{
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding-top:20px;
+}
+
+
+/* Footer */
+footer { 
+	width:900px;
+	height:90px;
+	clear:both;
+	background:url(footer.png) repeat-x left top;
+}
+
+footer p {
+	padding-top:28px;
+	text-align:center;
+	color::#000;
+} 
+
+.top-right {
+   float: right;
+}
+
+.top-left {
+	float: left;
+}
